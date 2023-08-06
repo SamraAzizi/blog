@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create New Post</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create New Post</h1>
+        <div class="content">
+            <form method="post">
+                <label for="title">Title:</label><br>
+                <input type="text" name="title" required><br>
+                <label for="content">Content:</label><br>
+                <textarea name="content" required></textarea><br>
+                <button type="submit" class="btn-create">Create</button>
+            </form>
+        </div>
+        <a href="{{ url_for('index') }}" class="btn-back">Back to Posts</a>
+    </div>
+</body>
+</html>
