@@ -97,34 +97,3 @@ a:hover {
     margin: 20px auto;
 }
 
-.btn-back {
-    display: block;
-    margin-top: 20px;
-    color: #fff;
-    background-color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.btn-back:hover {
-    background-color: #555;
-}
-
-
-
-
-.btn-create {
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.btn-create:hover {
-    background-color: #2980b9;
-}
